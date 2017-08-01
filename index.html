@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google</title>
+  <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/stylesheets.css">
+  <meta charset="utf-8" author="Sanni Michael Tomiwa" keyword="Google Search Clone">
+</head>
+<body>
+
+<!---Container for Navigation/Header -->
+<div class="container-fluid">
+
+    <div id="wrap"></div>
+  
+    <header>  
+    <nav>
+       <ul>
+         <li><a href="#">Gmail</a></li>
+         <li><a href="#about">Images</a></li>
+         <li id="appToolTip">
+             <a href="#contact">
+                <img src="images/creative.svg" class="headerImages">
+                <span id="appToolTipText">Google Apps</span>
+            </a>
+         </li>
+         <li id="appToolTip">
+             <a href="#contact">
+                <img src="images/notify.png" class="headerImages">
+                <span id="appToolTipText">Google Notifications</span>
+            </a>
+         </li>
+         <li id="googleToolTip">
+             <a href="#contact">
+                <img src="images/people.png" class="headerImages">
+                <span id="googleToolTipText">Google Account</span>
+             </a>
+        </li>
+          </ul>
+    </nav>
+  </header>
+
+</div>
+
+
+<!--- End of Container for Navigation/Header -->
+
+
+<!--- Container for Content -->
+    <div class="container">
+
+    <!--- Google Image-->
+          <div style="width:310px;height: 90px;margin: 0 auto;">
+            <img src="images/googlelogo.png" id="googlelogo">
+            <p id="nigeria"><b>Nigeria</b></p>
+          </div>
+    <!--- Google Image-->
+
+          <br><br><br><br><br><br><br><br><br>
+
+        <!--- Content-->
+          <div class="row">
+            <div class="col-md-12">
+                 <form>
+                 <div class="form-group" id="inputFormGroup">
+                      <input class="form-control input-lg" placeholder="search........." id="inputlg" type="text">
+                      <div id="tooltip">
+                           <img src="images/voice.png">
+                           <span id="tooltiptext">Search by voice</span>
+                      </div>
+                
+                      <div style="margin: 0 auto;width:400px;margin-top: 32px;">
+                        <button style="margin-left:30px" class="lucky"><b>Google Search</b></button>
+                        <button class="lucky"><b>I'm Feeling Lucky</b></button>
+                        <br><br>
+                        <p id="advert">
+                           <small>Google.com.ng offered in: 
+                             <a href="#">Hausa</a> 
+                             <a href="#">Igbo</a> 
+                             <a href="#">&Egrave;d&egrave; Yor&uacute;b&agrave;</a> 
+                             <a href="">Pidgin</a> 
+                           </small>
+                        </p>
+                      </div>
+
+                 </div>
+                 </form>
+            </div>
+          </div>
+        <!--- Content-->
+
+    </div>
+  <!--- End Container for Content -->
+
+      <!-- Footer Section -->
+  <footer class="footer navbar-fixed-bottom" id="footer">    
+      <span style="float: left">
+       <ul class="nav navbar-nav">
+              <li><a href="#"><small>Advertising</small></a></li>
+              <li><a href="#about"><small>Business</small></a></li>
+              <li><a href="#contact"><small>About</small></a></li>
+        </ul>
+      </span>
+      
+      <span style="float: right">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#"><small>Privacy</small></a></li>
+            <li><a href="#about"><small>Terms</small></a></li>
+            <li><a href="#contact"><small>Settings</small></a></li>
+            <li><a href="#contact"><small>Use Google.com</small></a></li>
+          </ul>
+     </span>
+  </footer>
+   <!-- Footer Ends here -->
+</body>
+</html> 

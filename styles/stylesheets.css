@@ -1,0 +1,220 @@
+ body{
+ 	font-family:trebuchet ms;
+ 	font-size:13px;
+ }
+
+ #navbar{
+ 	float:right;
+ }
+
+ li a{
+ 	color: grey;
+ }
+
+ .imageContainer{
+ 	margin: 0 auto;
+     width: 100px; 
+ }
+
+input:focus{
+    outline: 0 none;
+}
+
+
+#tooltip {
+    float: right;
+    margin-top: -33px;
+    position: relative;
+    display: inline-block;
+}
+
+#tooltip img{
+  height: 26px;
+  margin-right: 10px;
+}
+
+#tooltip #tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 0;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+#tooltip #tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+#tooltip:hover #tooltiptext {
+    visibility: visible;
+}
+
+
+/********* Tool tip for Apps *********/
+
+#appToolTip {
+    position: relative;
+    display: inline-block;
+}
+
+#appToolTip #appToolTipText {
+    visibility: hidden;
+    width: 150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 0;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+#appToolTip #appToolTipText::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+#appToolTip:hover #appToolTipText {
+    visibility: visible;
+}
+
+/********* Tool tip for Google *********/
+
+#googleToolTip {
+    position: relative;
+    display: inline-block;
+}
+
+#googleToolTip #googleToolTipText {
+    visibility: hidden;
+    width: 110px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 0;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+#googleToolTip #googleToolTipText::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+#googleToolTip:hover #googleToolTipText {
+    visibility: visible;
+}
+
+header nav ul li {
+	display: inline;
+}
+
+header nav {
+	text-align: right;
+	padding: 20px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+	color: #555;
+	padding: 10px;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.headerImages{
+	width: 25px;
+	height: 25px
+}
+
+#googlelogo{
+	height: 95px;
+	margin-top: 130px;
+	width: 272px;
+}
+
+#nigeria{
+	color: #4285f4;
+	margin-left:218px;
+	margin-top: -17px;
+	margin-bottom: 10pc
+}
+
+#inputlg{
+	width:610px;
+	border-radius:0;
+	height: 38px
+}
+
+.lucky{
+	width:130px;
+	height: 35px;
+	background-color:#f2f2f2;
+	color:grey;
+	border:none;
+	border-radius: 1
+}
+
+#advert{
+	margin-left: 12px;
+	word-spacing: 5px
+}
+
+#footer{
+	background:#f2f2f2;
+	height: 45px;
+}
+
+#inputFormGroup{
+	margin: 0 auto;
+	width:610px;
+}
+
+/*******************Media Queries********************/
+@media screen and (max-width: 700px) and (min-width: 320px) {
+	  #inputFormGroup{
+		margin: 0 auto;
+		width:410px;
+	}
+
+		 #inputlg{
+		width:410px;
+		border-radius:0;
+		height: 38px
+	}
+}
